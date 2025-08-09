@@ -10,7 +10,6 @@ const StoreContextProvider = (props) => {
 
     // Backend API URL (read from env for deployments)
     const url =
-        import.meta.env.VITE_API_URL ||
         "https://tomato-project-backend.onrender.com";
 
     // State to store the user token (for authentication)
